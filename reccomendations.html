@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <meta name="description" content="Recommend what movie should be reviews next!">
+    <meta name="keywords" content="Movie Reviews,Movies,Reviews,Films">
+    <meta name="author" content="Josh Solomon">
+    <title>About</title>
+    <style>
+        
+        #header {
+            height: 200px;
+        }
+        #header h1 {
+            line-height: 200px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #content {
+            font-size: 1.2rem;
+        }
+
+		.label-left {
+			width: 50%;
+			float: left;
+			text-align: right;
+			padding-right: 10px;
+		}
+		.form-row {
+			margin-bottom: 20px;
+        }
+        #button-row {
+			width: 112.5px;
+			margin: auto;
+        }
+        input {
+            height: 20px;
+            width: 300px;
+        }
+        textarea {
+            width: 500px;
+            height: 200px;
+        }
+        button {
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 5px;
+            color: white;
+            background-color: #800020;
+            border: none;
+            font-size: 1.2rem;
+            padding: 0px;
+        }
+        button:hover {
+            color: #800020;
+            background-color: white;
+        }
+
+        #footer {
+            position: absolute;
+            bottom: 0px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>A Hint of Cinema</h1>
+    </div>
+
+    <div id="navbar">
+        <a href="main.html">Movies</a>
+        <a href="about.html">About</a>
+        <a ref="reccomendations.html">Recommendations</a>
+    </div>
+
+    <div id="content">
+        <h2>Recommendations</h2>
+        <div id="rec-form">
+            <form action="confirmation.html">
+                <div class="form-row">
+                    <label for="movie-name" class="label-left">What Movie Should I Review Next?</label>
+                    <input type="text" id="movie-name" name="movie-name" placeholder="e.g. Avengers: Endgame">
+                </div>
+                <div class="form-row">
+                    <label for="add-info" class="label-left">Why This Movie?</label>
+                    <textarea name="add-info" rows="10" cols="50"></textarea>
+                </div>
+                <div class="form-row" id="button-row">
+                    <button type="submit">Submit</button>
+                </div>
+                </form>
+            </form>
+        </div>
+    </div>
+
+    <div id="footer">
+        Reviews and Website Design by Josh Solomon &COPY;2020
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reviews of comedies, thrillers, period pieces, dramas, horrors, adventures, and much more!">
+    <meta name="keywords" content="Movie Reviews,Movies,Reviews,Films">
+    <meta name="author" content="Josh Solomon">
+    <link rel="stylesheet" href="main.css">
+    <title>A Hint of Cinema</title>
+    <style>
+
+        #header {
+            text-align: center;
+            width: 100%;
+            height: 100vh;
+            font-size: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+        #header img {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        #header .overlay {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+            opacity: 0.7;
+            z-index: 1;
+        }
+        #header h1 {
+            padding: 0px;
+            margin: 0px;
+            line-height: 100vh;
+            position: relative;
+            z-index: 2;
+        }
+
+        .content-div {
+            width: 31%;
+            float: left;
+            position: relative;
+            margin: 1%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .content-div a {
+            position: absolute;
+            bottom: 20px;
+            width: 130px;
+            background-color: #800020;
+            color: white;
+            height: 50px;
+            border-radius: 10px;
+            text-decoration: none;
+            line-height: 50px;
+            font-size: 1.2rem;
+            padding: 0px;
+            margin: 0px;
+            visibility: hidden;
+        }
+        .content-div img {
+            width: 100%;
+            height: 600px;
+        }
+        .content-div h3 {
+            position: absolute;
+            top: 0;
+            visibility: hidden;
+            font-size: 3rem;
+            padding: 0px;
+            margin: 0px;
+            padding-top: 20px;
+        }
+        .content-div:hover a {
+            visibility: visible;
+        }
+        .content-div a:hover {
+            color: #800020;
+            background-color: white;
+            transition: 0.4s ease;
+        }
+        .content-div:hover h3 {
+            visibility: visible;
+        }
+        .content-div p {
+            position: absolute;
+            visibility: hidden;
+            padding: 0px;
+            margin: 0px;
+            font-size: 1.2rem;
+            width: 80%;
+        }
+        .content-div:hover p {
+            visibility: visible;
+        }
+        .content-div .overlay {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 600px;
+            background-color: black;
+            opacity: 0.75;
+            visibility: hidden;
+        }
+        .content-div:hover .overlay {
+            visibility: visible;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>A Hint of Cinema</h1>
+        <div class="overlay"></div>
+        <img src="img/header-background.jpeg" alt="Header Background">
+    </div>
+
+    <div id="navbar">
+        <a href="main.html">Movies</a>
+        <a href="about.html">About</a>
+        <a href="reccomendations.html">Recommendations</a>
+    </div>
+
+    <div id="content">
+        <h2>MOVIES</h2>
+        <div class="content-div">
+            <div class="overlay"></div>
+                <img src="img/about-time.jpg" alt="About Time Poster">
+                <h3>About Time</h3>
+                <p>When Tim Lake (Domhnall Gleeson) is 21, his father (Bill Nighy) tells him a secret: The men in their family can travel through time. Although he can't change history, Tim resolves to improve his life by getting a girlfriend. He meets Mary (Rachel McAdams), falls in love and finally wins her heart via time-travel and a little cunning. However, as his unusual life progresses, Tim finds that his special ability can't shield him and those he loves from the problems of ordinary life.</p>
+                <a href="review-pages/about-time.html">See Review</a>
+            </div>
+        <div class="content-div">
+            <div class="overlay"></div>
+                <img src="img/braveheart.jpg" alt="Braveheart Poster">
+                <h3>Braveheart</h3>
+                <p>William Wallace is the medieval Scottish patriot who is spurred into revolt against the English when the love of his life is slaughtered. Leading his army into battles that become a war, his advance into England threatens King Edward I's throne before he is captured and executed, but not before becoming a symbol for a free Scotland.</p>
+                <a href="review-pages/braveheart.html">See Review</a>
+        </div>
+        <div class="content-div">
+            <div class="overlay"></div>
+                <img src="img/chinatown.jpg" alt="Chinatown Poster">
+                <h3>Chinatown</h3>
+                <p>When Los Angeles private eye J.J. "Jake" Gittes (Jack Nicholson) is hired by Evelyn Mulwray to investigate her husband's activities, he believes it's a routine infidelity case. Jake's investigation soon becomes anything but routine when he meets the real Mrs. Mulwray (Faye Dunaway) and realizes he was hired by an imposter. Mr. Mulwray's sudden death sets Gittes on a tangled trail of corruption, deceit and sinister family secrets as Evelyn's father (John Huston) becomes a suspect in the case.</p>
+                <a href="review-pages/chinatown.html">See Review</a>
+        </div>
+        <div class="content-div">
+            <div class="overlay"></div>
+                <img src="img/forrest-gump.jpg" alt="Forrest Gump Poster">
+                <h3>Forrest Gump</h3>
+                <p>Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life. Whether dominating on the gridiron as a college football star, fighting in Vietnam or captaining a shrimp boat, Forrest inspires people with his childlike optimism. But one person Forrest cares about most may be the most difficult to save -- his childhood love, the sweet but troubled Jenny (Robin Wright).</p>
+                <a href="review-pages/forrest-gump.html">See Review</a>
+        </div>
+        <div class="content-div">
+            <div class="overlay"></div>
+                <img src="img/i-love-you-beth-cooper.jpg" alt="I Love You Beth Cooper Poster">
+                <h3>I Love You Beth Cooper</h3>
+                <p>Nerdy teenager Denis Cooverman (Paul Rust) harbors a secret crush on Beth Cooper (Hayden Panettiere), the hottest girl in high school. During his graduation speech, Denis lets the cat out of the bag and declares his love for Beth, who, instead of dissing Denis, shows up at his house later that day and promises to show him the time of his life.</p>
+                <a href="review-pages/i-love-you-beth-cooper.html">See Review</a>
+        </div>
+        <div class="content-div">
+            <div class="overlay"></div>
+                <img src="img/iron-man.jpg" alt="Iron Man Poster">
+                <h3>Iron Man</h3>
+                <p>A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism.</p>
+                <a href="review-pages/iron-man.html">See Review</a>
+        </div>
+        <div class="content-div">
+            <div class="overlay"></div>
+                <img src="img/some-like-it-hot.jpg" alt="Some Like It Hot Poster">
+                <h3>Some Like It Hot</h3>
+                <p>After witnessing a Mafia murder, slick saxophone player Joe (Tony Curtis) and his long-suffering buddy, Jerry (Jack Lemmon), improvise a quick plan to escape from Chicago with their lives. Disguising themselves as women, they join an all-female jazz band and hop a train bound for sunny Florida. While Joe pretends to be a millionaire to win the band's sexy singer, Sugar (Marilyn Monroe), Jerry finds himself pursued by a real millionaire (Joe E. Brown) as things heat up and the mobsters close in.</p>
+                <a href="review-pages/some-like-it-hot.html">See Review</a>
+        </div>
+        <div class="content-div">
+            <div class="overlay"></div>
+                <img src="img/the-professor.jpg" alt="The Professor Poster">
+                <h3>The Professor</h3>
+                <p>After learning he has six months to live, a college lecturer transforms into a rebellious party animal. To the shock of his wife and school chancellor -- and to the delight of his students -- he leads a crusade against authority and hypocrisy.</p>
+                <a href="review-pages/the-professor.html">See Review</a>
+        </div>
+        <div class="content-div">
+            <div class="overlay"></div>
+                <img src="img/zombieland-double-tap.jpg" alt="Zombieland: Double Tap Poster">
+                <h3>Zombieland: Double Tap</h3>
+                <p>Zombie slayers Tallahassee, Columbus, Wichita and Little Rock leave the confines of the White House to travel to Graceland in Memphis, Tenn. Along the way, they encounter other post-apocalyptic warriors and a group of survivors who find refuge in a commune. The scrappy fighters must now rely on their wits and weapons more than ever as they soon find themselves in a relentless battle against smarter, faster and seemingly indestructible zombies.</p>
+                <a href="review-pages/zombieland-double-tap.html">See Review</a>
+        </div>
+    </div>
+
+    <div class="clearfloat"></div>
+
+    <div id="footer">
+        Reviews and Website Design by Josh Solomon &COPY;2020
+    </div>
+</body>
+</html>
